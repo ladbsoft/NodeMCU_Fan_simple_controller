@@ -1,0 +1,27 @@
+// +------------------------------------------------------------------+
+// |                       C O N S T A N T S                          |
+// +------------------------------------------------------------------+
+
+//MQTT
+const char* mqttServer            = "<YourMQTTServerIP>";
+const int   mqttPort              = 1883;
+const char* mqttUser              = "<YourMQTTUser>";
+const char* mqttPassword          = "<YourMQTTPassword>";
+const char* mqttClientId          = "<ANewMQTTClientID>";
+const char* mqttSpeedStateTopic   = "<ANewMQTTTopic3>";
+const char* mqttSpeedCommandTopic = "<ANewMQTTTopic4>";
+
+//GPIO
+const byte speed1RelayPin = 16;   // D0
+const byte speed2RelayPin = 5;    // D1
+const byte speed3RelayPin = 4;    // D2
+const byte speed1ButtonPin = 14;  // D5
+const byte speed2ButtonPin = 12;  // D6
+const byte speed3ButtonPin = 13;  // D7
+
+// WI-FI CONFIGURATION NETWORK. IF THE ESP01 CANNOT CONNECT TO THE
+// LAST WI-FI SPOT USED, A NEW CONNECTION WITH THIS SSID AND
+// PASSWORD IS CREATED ON THE ESP01, SO YOU CAN CONNECT TO IT AND
+// CONFIGURE THE NEW CONNECTION
+const char* wifiSsid     = "<NewSSID>";
+const char* wifiPassword = "<NewPassword>";
