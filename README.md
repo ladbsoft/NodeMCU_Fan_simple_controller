@@ -26,4 +26,4 @@ You'll need:
 ### Configuration of the Arduino Sketch
 You'll need to copy the "Configuration.h.example" file as "Configuration.h" and change the IP, user, and password of your MQTT server, the client ID, the two MQTT topics to use and an SSID and password to create a new WiFi connection with a captive portal, that lets you connect to your WiFi router. This is not your actual WiFi router SSID and password, but a new one. Once you power on the microcontroller for the first time, connect to the SSID you configured here with your password and navigate to the captive portal to then configure your real WiFi connection.
 
-More info (only in Spanish for now) in https://elprogramadoriberico.es/2022/02/27/haciendo-inteligente-mi-ventilador-de-pie/
+More info at https://elprogramadoriberico.es/en/2022/03/01/making-a-cheap-pedestal-fan-smarter/
